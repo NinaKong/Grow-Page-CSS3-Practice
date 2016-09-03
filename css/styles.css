@@ -1,0 +1,17 @@
+img {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	margin: 20px;
+}
+img:hover {
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	transform: scale(1.25);
+	-webkit-box-shadow: 5px 5px 3px #000;
+	-moz-box-shadow: 5px 5px 3px #000;
+
+}
